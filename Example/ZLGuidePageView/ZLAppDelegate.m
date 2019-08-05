@@ -7,13 +7,35 @@
 //
 
 #import "ZLAppDelegate.h"
+#import "ZLWelcomeViewController.h"
+#import "ZLHomeViewController.h"
 
 @implementation ZLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    ZLWelcomeViewController *appStartController = [[ZLWelcomeViewController alloc] init];
+    self.window.rootViewController = appStartController;
+    self.window.backgroundColor = [UIColor greenColor];
+    appStartController.callBack = ^(void) {
+        [self switchRootViewController];
+    };
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+
+/**
+ 切换RootViewController
+ */
+- (void)switchRootViewController
+{
+    self.window.rootViewController = nil;
+    ZLHomeViewController *homeVc = [[ZLHomeViewController alloc] init];
+    UINavigationController *brandsNavigationController = [[UINavigationController alloc] initWithRootViewController:homeVc];
+    self.window.rootViewController = brandsNavigationController;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

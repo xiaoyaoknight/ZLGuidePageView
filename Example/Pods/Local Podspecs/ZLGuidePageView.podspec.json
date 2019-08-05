@@ -1,0 +1,30 @@
+{
+  "name": "ZLGuidePageView",
+  "version": "0.1.0",
+  "summary": "启动引导页",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1017169400@qq.com/ZLGuidePageView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangzelong": "1017169400@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1017169400@qq.com/ZLGuidePageView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZLGuidePageView/Classes/**/*",
+  "dependencies": {
+    "MSWeakTimer": [
+      "~> 1.1.0"
+    ],
+    "SDWebImage": [
+
+    ]
+  }
+}

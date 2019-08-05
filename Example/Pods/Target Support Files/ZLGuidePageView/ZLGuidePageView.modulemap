@@ -1,0 +1,6 @@
+framework module ZLGuidePageView {
+  umbrella header "ZLGuidePageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

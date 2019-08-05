@@ -13,7 +13,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ZLAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* ZLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ZLViewController.m */; };
+		6003F5A7195388D20070C39A /* ZLWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ZLWelcomeViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,7 +23,11 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A060EFA653BB0A99D0A570C4 /* Pods_ZLGuidePageView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883C378DB70D377E1DB1ACEF /* Pods_ZLGuidePageView_Example.framework */; };
-		D56298F79C1C7CE5465F4FBE /* Pods_ZLGuidePageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8461FE9F81302A36905884 /* Pods_ZLGuidePageView_Tests.framework */; };
+		C7CAEE8222F828E600FB4A9A /* guideImage8.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE7E22F828E600FB4A9A /* guideImage8.gif */; };
+		C7CAEE8322F828E600FB4A9A /* guideMovie1.mov in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE7F22F828E600FB4A9A /* guideMovie1.mov */; };
+		C7CAEE8422F828E600FB4A9A /* guideImage7.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE8022F828E600FB4A9A /* guideImage7.gif */; };
+		C7CAEE8522F828E600FB4A9A /* guideImage6.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE8122F828E600FB4A9A /* guideImage6.gif */; };
+		C7CAEE8822F8292200FB4A9A /* ZLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE8722F8292200FB4A9A /* ZLHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34E56AAD959FC60A03C2C80A /* Pods-ZLGuidePageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLGuidePageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLGuidePageView_Tests/Pods-ZLGuidePageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C8461FE9F81302A36905884 /* Pods_ZLGuidePageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLGuidePageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3D4810CEE6AD6C6772E266 /* Pods-ZLGuidePageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLGuidePageView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLGuidePageView_Example/Pods-ZLGuidePageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZLGuidePageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLGuidePageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,8 +53,8 @@
 		6003F59B195388D20070C39A /* ZLGuidePageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZLGuidePageView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ZLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ZLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ZLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ZLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* ZLWelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLWelcomeViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* ZLWelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLWelcomeViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ZLGuidePageView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLGuidePageView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,10 +66,15 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		883C378DB70D377E1DB1ACEF /* Pods_ZLGuidePageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLGuidePageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A8689CE533D2E4F0F233DF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9C48CA38ED578E8036AF73A1 /* Pods-ZLGuidePageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLGuidePageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLGuidePageView_Tests/Pods-ZLGuidePageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B9C9E9BAE413F96A17C5E415 /* ZLGuidePageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZLGuidePageView.podspec; path = ../ZLGuidePageView.podspec; sourceTree = "<group>"; };
-		D56EFEBE7E48286DFCF4DEB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A8689CE533D2E4F0F233DF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9C9E9BAE413F96A17C5E415 /* ZLGuidePageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLGuidePageView.podspec; path = ../ZLGuidePageView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7CAEE7E22F828E600FB4A9A /* guideImage8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage8.gif; sourceTree = "<group>"; };
+		C7CAEE7F22F828E600FB4A9A /* guideMovie1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = guideMovie1.mov; sourceTree = "<group>"; };
+		C7CAEE8022F828E600FB4A9A /* guideImage7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage7.gif; sourceTree = "<group>"; };
+		C7CAEE8122F828E600FB4A9A /* guideImage6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage6.gif; sourceTree = "<group>"; };
+		C7CAEE8622F8292100FB4A9A /* ZLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLHomeViewController.h; sourceTree = "<group>"; };
+		C7CAEE8722F8292200FB4A9A /* ZLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLHomeViewController.m; sourceTree = "<group>"; };
+		D56EFEBE7E48286DFCF4DEB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +96,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D56298F79C1C7CE5465F4FBE /* Pods_ZLGuidePageView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +107,6 @@
 			children = (
 				6676950DE32B1BC3B9018EFE /* Pods-ZLGuidePageView_Example.debug.xcconfig */,
 				3F3D4810CEE6AD6C6772E266 /* Pods-ZLGuidePageView_Example.release.xcconfig */,
-				34E56AAD959FC60A03C2C80A /* Pods-ZLGuidePageView_Tests.debug.xcconfig */,
-				9C48CA38ED578E8036AF73A1 /* Pods-ZLGuidePageView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -143,11 +148,14 @@
 		6003F593195388D20070C39A /* Example for ZLGuidePageView */ = {
 			isa = PBXGroup;
 			children = (
+				C7CAEE7D22F828E600FB4A9A /* Image */,
 				6003F59C195388D20070C39A /* ZLAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* ZLViewController.h */,
-				6003F5A6195388D20070C39A /* ZLViewController.m */,
+				6003F5A5195388D20070C39A /* ZLWelcomeViewController.h */,
+				6003F5A6195388D20070C39A /* ZLWelcomeViewController.m */,
+				C7CAEE8622F8292100FB4A9A /* ZLHomeViewController.h */,
+				C7CAEE8722F8292200FB4A9A /* ZLHomeViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -196,6 +204,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		C7CAEE7D22F828E600FB4A9A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C7CAEE7E22F828E600FB4A9A /* guideImage8.gif */,
+				C7CAEE7F22F828E600FB4A9A /* guideMovie1.mov */,
+				C7CAEE8022F828E600FB4A9A /* guideImage7.gif */,
+				C7CAEE8122F828E600FB4A9A /* guideImage6.gif */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,11 +241,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZLGuidePageView_Tests" */;
 			buildPhases = (
-				BC53388A7047F0340ED012FF /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				7822657B3551CB8934A55A6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				C7CAEE8222F828E600FB4A9A /* guideImage8.gif in Resources */,
+				C7CAEE8522F828E600FB4A9A /* guideImage6.gif in Resources */,
+				C7CAEE8422F828E600FB4A9A /* guideImage7.gif in Resources */,
+				C7CAEE8322F828E600FB4A9A /* guideMovie1.mov in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -317,34 +339,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7822657B3551CB8934A55A6B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZLGuidePageView_Tests/Pods-ZLGuidePageView_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLGuidePageView_Tests/Pods-ZLGuidePageView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		79738B18E7F1B25A628B10B6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,39 +348,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZLGuidePageView_Example/Pods-ZLGuidePageView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MSWeakTimer/MSWeakTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/ZLGuidePageView/ZLGuidePageView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSWeakTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLGuidePageView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLGuidePageView_Example/Pods-ZLGuidePageView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC53388A7047F0340ED012FF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZLGuidePageView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -397,8 +373,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZLAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ZLViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* ZLWelcomeViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C7CAEE8822F8292200FB4A9A /* ZLHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +532,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34E56AAD959FC60A03C2C80A /* Pods-ZLGuidePageView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -580,7 +556,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C48CA38ED578E8036AF73A1 /* Pods-ZLGuidePageView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

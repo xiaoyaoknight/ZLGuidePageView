@@ -1,0 +1,29 @@
+PODS:
+  - MSWeakTimer (1.1.0)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - ZLGuidePageView (0.1.0):
+    - MSWeakTimer (~> 1.1.0)
+    - SDWebImage
+
+DEPENDENCIES:
+  - ZLGuidePageView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MSWeakTimer
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  ZLGuidePageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  ZLGuidePageView: 74540fdf3c7a9428951df93148e3c7548c4e3f99
+
+PODFILE CHECKSUM: 21f4d1c5879c8db0b441237f86186a39524a6c27
+
+COCOAPODS: 1.5.3
